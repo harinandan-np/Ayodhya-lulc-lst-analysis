@@ -1,0 +1,4 @@
+year,sensor,overall_accuracy_pct,kappa
+2005,Landsat 5 TM,82.92,0.776
+2015,Landsat 8 OLI/TIRS,88.6,0.843
+2025,Landsat 8 OLI/TIRS,91.4,0.881
