@@ -21,9 +21,9 @@ Ayodhya district lies in the flat alluvial plains of the Middle Ganga Plain in U
 
 <table>
   <tr>
-    <td align="center"><img src="images/study_area_ayodhya.png" width="100%"><br><sub>Ayodhya district</sub></td>
-    <td align="center"><img src="images/study_area_uttar_pradesh.png" width="100%"><br><sub>Uttar Pradesh</sub></td>
-    <td align="center"><img src="images/study_area_india.png" width="100%"><br><sub>India</sub></td>
+    <td align="center"><img src="study_area_ayodhya.png" width="100%"><br><sub>Ayodhya district</sub></td>
+    <td align="center"><img src="study_area_uttar_pradesh.png" width="100%"><br><sub>Uttar Pradesh</sub></td>
+    <td align="center"><img src="study_area_india.png" width="100%"><br><sub>India</sub></td>
   </tr>
 </table>
 
@@ -40,7 +40,7 @@ Ayodhya district lies in the flat alluvial plains of the Middle Ganga Plain in U
 | LST | Landsat Collection 2 Level 2 surface temperature band, summarised per year and per land cover class with zonal statistics |
 | Output | 30 m GeoTIFFs; final maps compiled in QGIS |
 
-<p align="center"><img src="docs/methodology_flowchart.png" width="55%"><br><sub>Workflow</sub></p>
+<p align="center"><img src="methodology_flowchart.png" width="55%"><br><sub>Workflow</sub></p>
 
 ## Results
 
@@ -48,9 +48,9 @@ Ayodhya district lies in the flat alluvial plains of the Middle Ganga Plain in U
 
 <table>
   <tr>
-    <td align="center"><img src="images/lulc_2005.png" width="100%"><br><sub>2005</sub></td>
-    <td align="center"><img src="images/lulc_2015.png" width="100%"><br><sub>2015</sub></td>
-    <td align="center"><img src="images/lulc_2025.png" width="100%"><br><sub>2025</sub></td>
+    <td align="center"><img src="lulc_2005.png" width="100%"><br><sub>2005</sub></td>
+    <td align="center"><img src="lulc_2015.png" width="100%"><br><sub>2015</sub></td>
+    <td align="center"><img src="lulc_2025.png" width="100%"><br><sub>2025</sub></td>
   </tr>
 </table>
 
@@ -75,9 +75,9 @@ The 2005 map is less accurate than the other two years (see limitations below).
 
 <table>
   <tr>
-    <td align="center"><img src="images/ndvi_2005.png" width="100%"><br><sub>2005</sub></td>
-    <td align="center"><img src="images/ndvi_2015.png" width="100%"><br><sub>2015</sub></td>
-    <td align="center"><img src="images/ndvi_2025.png" width="100%"><br><sub>2025</sub></td>
+    <td align="center"><img src="ndvi_2005.png" width="100%"><br><sub>2005</sub></td>
+    <td align="center"><img src="ndvi_2015.png" width="100%"><br><sub>2015</sub></td>
+    <td align="center"><img src="ndvi_2025.png" width="100%"><br><sub>2025</sub></td>
   </tr>
 </table>
 
@@ -93,9 +93,9 @@ Mean NDVI did not fall even though farmland shrank. In April–May most fields i
 
 <table>
   <tr>
-    <td align="center"><img src="images/lst_2005.png" width="100%"><br><sub>2005</sub></td>
-    <td align="center"><img src="images/lst_2015.png" width="100%"><br><sub>2015</sub></td>
-    <td align="center"><img src="images/lst_2025.png" width="100%"><br><sub>2025</sub></td>
+    <td align="center"><img src="lst_2005.png" width="100%"><br><sub>2005</sub></td>
+    <td align="center"><img src="lst_2015.png" width="100%"><br><sub>2015</sub></td>
+    <td align="center"><img src="lst_2025.png" width="100%"><br><sub>2025</sub></td>
   </tr>
 </table>
 
@@ -125,12 +125,10 @@ The spread of temperatures across the district narrowed from 3.24 °C (2005) to 
 
 ## Repository contents
 
-```
-├── README.md
-├── images/      Study area, land cover, NDVI and LST maps (2005, 2015, 2025)
-├── results/     Result tables as CSV files (area, accuracy, NDVI, LST)
-└── docs/        Methodology flowchart
-```
+All files sit in the main folder:
+
+- `*.png` : study area, land cover (lulc), NDVI and LST maps for 2005, 2015 and 2025, plus the methodology flowchart
+- `*.csv` : result tables (area, accuracy, NDVI, LST)
 
 ## Status
 
